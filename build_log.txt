@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/tmp/work/lab/_local_runner.py", line 51, in main
+    fn()
+  File "/tmp/work/lab/tests/test_calculator.py", line 4, in test_add
+    assert add(2, 3) == 5  # This will FAIL (returns -1)
+AssertionError
+collected test files: ['tests/test_calculator.py']
+FAILED tests/test_calculator.py::test_add
+PASSED tests/test_calculator.py::test_multiply
+
+2 run, 1 failed, 0 collection error(s) in 0.007s

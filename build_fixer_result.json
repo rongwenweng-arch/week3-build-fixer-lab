@@ -1,0 +1,6 @@
+{
+  "root_cause": "add(a, b) is implemented as `return a - b` instead of `return a + b`, so test_add fails on any non-zero b.",
+  "fix_description": "Change the operator in add() from subtraction to addition.",
+  "fixed_file_path": "src/calculator.py",
+  "fixed_file_content": "def add(a, b):\n    return a + b\n\ndef multiply(a, b):\n    return a * b\n"
+}
